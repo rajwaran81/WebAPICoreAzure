@@ -12,7 +12,7 @@ namespace WebAPICoreAzure.Controllers
     public class ValuesController : ControllerBase
     {
         [HttpGet]
-        public string Get(int id)
+        public string Get()
         {
             return "Hello from values controller!";
         }
